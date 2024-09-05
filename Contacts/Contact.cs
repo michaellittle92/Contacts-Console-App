@@ -15,9 +15,11 @@ public class Contact
 
     public void Print()
     {
+        Console.WriteLine("-------------");
         Console.WriteLine($"Name: {Name}");
         Console.WriteLine($"PhoneNumber: {PhoneNumber}");
-        Console.WriteLine($"Email: {Email}");
+        Console.WriteLine($"Email: {Email}\n");
+        
     }
 }
 
